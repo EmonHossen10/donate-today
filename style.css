@@ -88,7 +88,6 @@ h1 > span {
   justify-content: space-evenly;
   align-items: center;
   padding: 0 280px;
-  
 }
 .btn-taka {
   width: 135px;
@@ -117,11 +116,117 @@ h1 > span {
   margin-top: 60px;
   margin-bottom: 10px;
 }
-.horizontal-line{
-  border: 1px solid #DADADA;
+.horizontal-line {
+  border: 1px solid #dadada;
   width: 765px;
-height: 0px;
-margin-bottom: 30px;
-margin-left: 338px;
+  height: 0px;
+  margin-bottom: 30px;
+  margin-left: 338px;
 }
+/* our-donate-plan */
 
+.our-donate-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-donate-plan-title {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.our-donate-plan-description {
+  font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #707070;
+width: 691px;
+height: 56px;
+margin-bottom: 50px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 170px;
+}
+.card-1{
+  width: 360px;
+height: 352px;
+background: rgba(79, 157, 166, 0.1);
+border-radius: 5px;
+}
+.card-2{
+  width: 360px;
+height: 352px;
+background: rgba(255, 89, 89, 0.1);
+border-radius: 5px;
+}
+.card-3{
+  width: 360px;
+height: 352px;
+background: rgba(11, 232, 129,0.1);
+border-radius: 5px;
+}
+.icon{
+
+margin-top: 64px;
+margin-left: 24px;
+margin-bottom: 32px;
+}
+.card-1>h1{
+  width: 204px;
+height: 36px;
+margin-left: 23px;
+font-weight: 600;
+font-size: 24px;
+color: #121212;
+}
+.card-1>p{
+  width: 315px;
+height: 101px;
+margin-left: 23px;
+margin-top: 16px;
+line-height: 24px;
+font-weight: 400;
+font-size: 16px;
+color: #707070;
+}
+.card-2>h1{
+  width: 231px;
+height: 36px;
+margin-left: 23px;
+font-weight: 600;
+font-size: 24px;
+color: #121212;
+}
+.card-2>p{
+  width: 315px;
+height: 101px;
+margin-left: 23px;
+margin-top: 16px;
+line-height: 24px;
+font-weight: 400;
+font-size: 16px;
+color: #707070;
+}
+.card-3>h1{
+  width: 204px;
+height: 36px;
+margin-left: 23px;
+font-weight: 600;
+font-size: 24px;
+color: #121212;
+}
+.card-3>p{
+  width: 315px;
+height: 101px;
+margin-left: 23px;
+margin-top: 16px;
+line-height: 24px;
+font-weight: 400;
+font-size: 16px;
+color: #707070;
+}
