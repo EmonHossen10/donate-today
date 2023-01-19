@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  background-image: url(images/donation1.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 210px;
+}
+.container > h1,
+p,
+button {
+  color: white;
+}
+h1 {
+  font-weight: 700;
+  font-size: 65px;
+  border-bottom: 20px;
+}
+
+h1 > span {
+  padding-left: 130px;
+}
+.container > p {
+  color: #ffffff;
+  width: 550px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 1.4em;
+  margin-bottom: 30px;
+}
+.container > p > span {
+  margin-left: 10px;
+  margin-left: 70px;
+}
+.btn-primary {
+  background: #ff5959;
+  border-radius: 5px;
+  width: 160px;
+  height: 56px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  margin-bottom: 170px;
+}
+/* donate-today section styles */
+
+.donate-today {
+  margin-top: 130px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.donate-today-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.donate-today-description {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  width: 691px;
+  height: 56px;
+  line-height: 1.4em;
+  margin-left: 120px;
+  margin: 50px;
+}
+.donate-today-description > span {
+  padding-left: 90px;
+}
+.ammount {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 280px;
+  
+}
+.btn-taka {
+  width: 135px;
+  height: 123px;
+  background: #fafafa;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #707070;
+}
+#btn-two {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff5959;
+}
+.other-ammount {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #b3b3b3;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.horizontal-line{
+  border: 1px solid #DADADA;
+  width: 765px;
+height: 0px;
+margin-bottom: 30px;
+margin-left: 338px;
+}
+
