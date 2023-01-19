@@ -151,6 +151,7 @@ margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
   padding: 0 170px;
+  padding-bottom: 130px;
 }
 .card-1{
   width: 360px;
@@ -229,4 +230,48 @@ line-height: 24px;
 font-weight: 400;
 font-size: 16px;
 color: #707070;
+}
+/* contribute-container styles */
+
+.contribute-container{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 0 150px;
+margin-bottom: 100px;
+}
+.donation-contribute>h1{
+  width: 492px;
+  height: 108px;
+  font-weight: 700;
+font-size: 45px;
+color: #121212;
+margin-bottom: 20px;
+}
+.donation-contribute>p,h5{
+  width: 482px;
+height: 84px;
+font-weight: 400;
+font-size: 18px;
+color: #707070;
+margin-bottom: 10px;
+}
+.btn-primary-three{
+
+  width: 230px;
+height: 56px;
+background: #FF5959;
+border-radius: 5px;
+padding: 16px 12px;
+gap: 8px;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+border: 0;
+
+}
+.image-container{
+  width: 456px;
+  height: 477px;
 }
