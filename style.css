@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 .header {
-  background-image: url(images/donation1.jpg);
+  background-image: url(images/donation13.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
@@ -341,4 +341,67 @@ h5 {
   color: #707070;
   text-align: center;
   margin-bottom: 50px;
+}
+/* subscribe section styles */
+
+.subscribe-container {
+  width: 809px;
+  height: 200px;
+  background: #fff4d6;
+  margin-left: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.email-input {
+  width: 275px;
+  height: 48px;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+  padding-left: 20px;
+}
+.btn-primary-four {
+  width: 157px;
+  height: 48px;
+  background: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
+/* footer section */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0b0d17;
+  width: 100%;
+  height: 180px;
+}
+.footer > h1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+
+  color: #ff5959;
+  font-family: "Lobster";
+  font-style: normal;
+  margin-bottom: 24px;
+}
+.footer > h2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
 }
